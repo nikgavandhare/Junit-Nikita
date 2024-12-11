@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: MavenPackage.TestTrial
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.111 s <<< FAILURE! -- in MavenPackage.TestTrial
+MavenPackage.TestTrial.test_AreaRectangle -- Time elapsed: 0.036 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Area of Rectangle is not matching to expected area ==> expected: <721.0> but was: <72.0>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:76)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:968)
+	at MavenPackage.TestTrial.test_AreaRectangle(TestTrial.java:28)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+

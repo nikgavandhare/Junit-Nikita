@@ -1,0 +1,29 @@
+package MavenPackage;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class TestTrial {
+	
+	// create obj of calss shape
+	
+	Shape obj=new Shape();
+	
+	@Test
+	void test_AreaCircle() 
+	{
+		assertEquals(78.5,obj.CalAreaCircle(5) );
+	}
+
+	void test_AreaSquare() 
+	{
+		assertEquals(144,obj.CalAreaSquare(12) );
+	}
+	
+	void test_AreaRectangle() 
+	{
+		assertEquals(72,obj.CalAreaRectangle(12, 6) );
+	}
+	
+}

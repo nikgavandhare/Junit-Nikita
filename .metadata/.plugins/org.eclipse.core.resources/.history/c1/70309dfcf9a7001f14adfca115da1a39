@@ -1,0 +1,20 @@
+package ThePAckage;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+
+import org.junit.jupiter.api.Test;
+
+class TestArraySort {
+
+	@Test
+	void testArray() 
+	{
+		int expected[]= {2,4,7,12};
+		
+		int actual[]= {4,12,2,7};
+		
+		assertArrayEquals(expected,actual);
+	}
+
+}

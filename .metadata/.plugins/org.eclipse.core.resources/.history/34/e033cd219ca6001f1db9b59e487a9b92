@@ -1,0 +1,16 @@
+package mypakage;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class CalculatorTest {
+
+	@Test
+	public void test() 
+	{
+		assertEquals(11, 11);
+		
+	}
+
+}

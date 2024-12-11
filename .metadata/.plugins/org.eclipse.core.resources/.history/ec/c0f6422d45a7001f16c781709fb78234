@@ -1,0 +1,14 @@
+package MyPackage;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class SquareAreaTest {
+
+	@Test
+	void test() {
+		fail("Not yet implemented");
+	}
+
+}

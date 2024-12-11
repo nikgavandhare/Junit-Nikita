@@ -1,0 +1,27 @@
+package ThePackage;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.util.Arrays;
+
+import org.junit.jupiter.api.Test;
+
+class TestSortArray {
+
+	@Test
+	void test()
+	{
+		Sort_Array obj = new Sort_Array();
+		
+		int unsortedarr[]= {8,3,5,1};
+		
+		int sortedarr[]=obj.Sorted_Array(unsortedarr);
+		
+		for (int n: sortedarr)
+		{
+			System.out.println(n);
+		}
+
+	}
+
+}

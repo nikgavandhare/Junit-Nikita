@@ -1,0 +1,24 @@
+package TestPackage;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+import com.Service_purchase.Purchase_Course;
+import com.learning.Java_Course;
+
+class TestPurchaseCourse {
+
+	@Test
+	void test_PurchaseCourse() 
+	{
+		//create obj of Purchase_Course CLASS
+		
+		Purchase_Course obj=new Purchase_Course();
+		
+		boolean stutus = obj.Proceed_with_course(new Java_Course());
+		
+		assertTrue(stutus);
+	}
+
+}

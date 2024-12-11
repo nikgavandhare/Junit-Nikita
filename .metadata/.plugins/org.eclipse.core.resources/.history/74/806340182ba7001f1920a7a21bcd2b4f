@@ -1,0 +1,25 @@
+
+public class ReverseStr {
+
+	public String Reversestring(String str) 
+	{
+		char arr[]= str.toCharArray();
+		int left=0;
+		int right= str.lenght - 1;
+		
+		if(left>right)
+		{
+			// using 3 varible swaping
+			int temp=left;
+			left=right;
+			right=temp;
+		}
+		left--;
+		right++;
+				
+		
+		
+		String
+	}
+
+}

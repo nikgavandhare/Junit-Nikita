@@ -1,0 +1,10 @@
+package ThePackage;
+
+public class Array_Performance 
+{
+	for(int i=0;i<100000;i++)
+	{
+		System.out.println(i);
+	}
+
+}

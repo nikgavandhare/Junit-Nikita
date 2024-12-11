@@ -1,0 +1,10 @@
+package MyPackage;
+
+public class SquareArea 
+{
+	public double CalculateSqaureArea(double Length)
+	{
+		return 0;
+	}
+
+}

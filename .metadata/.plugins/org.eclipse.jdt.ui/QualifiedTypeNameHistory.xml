@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="mypakage.CalculatorTest"/>
+    <fullyQualifiedTypeName name="MyPackage.ReverseStr"/>
+    <fullyQualifiedTypeName name="MyPackage.SquareArea"/>
+    <fullyQualifiedTypeName name="MavenPackage.Shape"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="com.learning.Course"/>
+    <fullyQualifiedTypeName name="com.Service_purchase.Purchase_Course"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
+    <fullyQualifiedTypeName name="java.lang.AssertionError"/>
+    <fullyQualifiedTypeName name="ThePackage.Sort_Array"/>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="ThePackage.Array_Performance"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.time.Duration"/>
+</qualifiedTypeNameHistroy>

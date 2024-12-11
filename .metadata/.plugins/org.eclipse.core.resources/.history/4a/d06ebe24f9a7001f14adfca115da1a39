@@ -1,0 +1,16 @@
+package ThePAckage;
+
+public class TestArraysort 
+{
+	@Test
+	void test
+	int []ExpectedArray= {2,5,8,11};
+	
+	int []ActualArray= {5,8,11,2};
+	
+	private void assertArrayEquals() {
+		// TODO Auto-generated method stub
+
+	}(ExpectedArray);
+
+}

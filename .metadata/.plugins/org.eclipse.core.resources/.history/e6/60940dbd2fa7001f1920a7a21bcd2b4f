@@ -1,0 +1,25 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class ReverseStrTest {
+
+	@Test
+	public void test() 
+	{
+		// create obj odf the revesestring class
+		 ReverseStr obj= new ReverseStr();
+		 
+		// String Actual_s1=obj.Reversestring("Nikita");
+		 //String Expected_s2= "atikiN";
+		 
+		 //assertEquals(Expected_s2, Actual_s1);
+		 
+		 //instread above we can do 
+		 
+		 assertEquals("avaj",obj.Reversestring("java"));
+
+		 
+	}
+
+}

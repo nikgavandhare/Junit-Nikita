@@ -1,0 +1,25 @@
+package MyPackage;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class SquareAreaTest 
+{
+	// create obj of class
+	 SquareArea obj = new SquareArea();
+	  
+
+	@Test
+	void test_CalculateSquareArea()
+	{
+	 
+	  assertEquals(144,obj.CalculateSqaureArea(12));
+	}
+	
+	
+	void test_CalculateCircleArea()
+	{
+		assertEquals(122, obj.CalculateCircleArea(12));
+	}
+}

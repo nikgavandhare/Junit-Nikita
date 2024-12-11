@@ -1,0 +1,25 @@
+package MyPackage;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class ReverseStrtest {
+
+	@Test
+	void test_Reversestr_OneWord() 
+	{
+		ReverseStr obj= new ReverseStr();
+		
+		assertEquals("avaj", obj.Reversestring("java"));
+		
+	}
+	
+	void test_ReverseStr_MultipleWord()
+	{
+		ReverseStr obj= new ReverseStr();
+		
+		assertEquals("atikin",obj.Reversestring("nikita") );
+	}
+
+}
